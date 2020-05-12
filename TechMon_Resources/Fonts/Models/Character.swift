@@ -22,7 +22,7 @@ class Character {
     
     // 最大値
     var maxHP: Int = 100
-    var maxTP: Int = 20
+    var maxTP: Int = 40
     var maxMP: Int = 20
     
     // initで全て使えるように設定する

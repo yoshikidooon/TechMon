@@ -119,7 +119,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="400 / 400" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YjJ-am-Dnd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="200 / 200" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YjJ-am-Dnd">
                                 <rect key="frame" x="270" y="176" width="89" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MisakiGothic" family="MisakiGothic" pointSize="19"/>
@@ -212,7 +212,7 @@
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="attackAction" destination="irw-u6-L3H" eventType="touchUpInside" id="miy-2N-jkE"/>
+                                    <action selector="attackAction" destination="irw-u6-L3H" eventType="touchUpInside" id="5WL-NY-6Pd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xv-qF-Rez">
@@ -223,7 +223,7 @@
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="fireAction" destination="irw-u6-L3H" eventType="touchUpInside" id="Y1W-yv-xnC"/>
+                                    <action selector="fireAction" destination="irw-u6-L3H" eventType="touchUpInside" id="IXX-zH-k8A"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDd-tS-Xb9">
@@ -234,7 +234,7 @@
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="tameruAction" destination="irw-u6-L3H" eventType="touchUpInside" id="dBb-Gz-Oaw"/>
+                                    <action selector="tameruAction" destination="irw-u6-L3H" eventType="touchUpInside" id="DEk-os-RqK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -243,15 +243,15 @@
                     </view>
                     <navigationItem key="navigationItem" id="GI9-HM-Q00"/>
                     <connections>
-                        <outlet property="enemyHPLabel" destination="YjJ-am-Dnd" id="AfZ-fE-k6C"/>
+                        <outlet property="enemyHPLabel" destination="YjJ-am-Dnd" id="2uA-t7-ccw"/>
                         <outlet property="enemyImageView" destination="iYo-0h-Bbv" id="hVS-Al-9Cs"/>
                         <outlet property="enemyMPLabel" destination="sPn-3L-mjb" id="gbi-xa-UIx"/>
                         <outlet property="enemyNameLabel" destination="qma-7g-i59" id="nU8-re-upq"/>
                         <outlet property="playerHPLabel" destination="8LD-aI-Xc3" id="oyd-um-axX"/>
                         <outlet property="playerImageView" destination="LKW-KI-gVL" id="8db-84-oZo"/>
-                        <outlet property="playerMPLabel" destination="hgn-Us-sWy" id="8Ku-Qi-1KJ"/>
+                        <outlet property="playerMPLabel" destination="hgn-Us-sWy" id="eMz-zg-Xlk"/>
                         <outlet property="playerNameLabel" destination="U0C-Jd-UJj" id="rYB-H3-Gj8"/>
-                        <outlet property="playerTPLabel" destination="jDQ-Pj-0Xv" id="JSQ-ZH-2rn"/>
+                        <outlet property="playerTPLabel" destination="jDQ-Pj-0Xv" id="gUh-Pv-HUv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0NF-oe-e89" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
